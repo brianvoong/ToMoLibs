@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'ToMoLibs', :exclusive => true do
+  pod "ToMoLibs", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "ToMoLibs", :path => "../"
+
+  
+end
