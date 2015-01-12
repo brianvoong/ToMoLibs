@@ -7,11 +7,14 @@
 //
 
 #import "TOMAppDelegate.h"
+#import "SomeCustomLibraryClass.h"
 
 @implementation TOMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    SomeCustomLibraryClass *foo = [SomeCustomLibraryClass new];
+    [foo printOutCustomMessage];
     // Override point for customization after application launch.
     return YES;
 }

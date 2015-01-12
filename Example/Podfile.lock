@@ -1,0 +1,14 @@
+PODS:
+  - ToMoLibs (0.1.0)
+
+DEPENDENCIES:
+  - ToMoLibs (from `../`)
+
+EXTERNAL SOURCES:
+  ToMoLibs:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ToMoLibs: 3a5b2abb6d720059f549018dbd3a76a848a086ae
+
+COCOAPODS: 0.34.4
